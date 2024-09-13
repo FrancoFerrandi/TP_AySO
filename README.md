@@ -1,2 +1,8 @@
 # TP_AySO
-TP_AySO Franco Ferrandi
+
+Alumno: Franco Ferrandi
+
+Division: 115
+
+Turno: Mañana
+
