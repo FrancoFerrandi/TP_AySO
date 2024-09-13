@@ -1,0 +1,290 @@
+man man
+pwd
+whoami
+echo "hola"
+echo $HOME
+ls
+cat README
+cd repogit/
+ls
+git clone https://github.com/FrancoFerrandi/Repo_Ferrandi.git
+ls
+cd Repo_Ferrandi/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "franco.ferrandi@gmail.com"
+git config --global user.name "FrancoFerrandi"
+git commit -m "Mi primer commit"
+git push 
+git push
+git status
+exit
+status
+vagrant status
+pwd
+ls
+cd repogit
+ls
+cd Repo_Ferrandi
+ls
+echo "chau" >> hola.txt
+ls
+cat hola.txt
+echo "chau" > chau.txt
+echo "hola" > hola.txt
+cat hola.txt
+cat hola.txt chau.txt > saludo.txt
+cat saludo.txt
+git status
+git add .
+git status
+git commit -m "clase 3"
+git status
+git push
+exit
+pppppw
+ititt
+ppww
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:FrancoFerrandi/Repo_Ferrandi.git
+cd Repo_Ferrandi
+ls
+echo "hola"
+echo "hola" > hola.txt
+ls
+cat hola.txt
+git status
+git add .
+git status
+git commit -m "Agrego hola"
+git status
+git push
+cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -v nologin > archivo1.txt
+ls -l
+cat archivo1.txt
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -nv nologin | head -n3
+cat /etc/shadow
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep Model
+lscpu | grep -i Model
+lscpu | grep -i Model | head -n1
+lscpu | grep -i Model | head -n1 > info_proc.txt
+ls
+cat info_proc.txt 
+ls -ls
+cat archivo1.txt
+sort archivo1.txt
+history
+pwd
+vagrant status
+ls
+pwd
+echo $HOME
+ssh-keygen
+ls
+cat repogit
+cd repogit
+ls
+cd ..
+ls
+cat $HOME/.ssh/*.pub
+cd
+ls
+cat repogit
+cd repogit
+ls
+git clone git@github.com:FrancoFerrandi/TP_AySO.git
+ls
+git clone git@github.com:FrancoFerrandi/TP_AySO.git
+cd TP_AySO/
+ls
+pwd
+ls -l
+ls
+cat /etc/os-release
+cat / etc/os-release | grep -i Home_url
+/etc/os-release | grep -i Home_url
+grep HOME_URL/etc/os-release
+pwd
+ls
+cd repogit
+ls
+cd TP_AySO/
+man grep
+grep HOME_URL /etc/os-release
+cat /etc/os-release
+grep home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep -i HOME_URL /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git status
+git add.
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+head /proc/cpuinfo
+head /proc/cpuinfo | "model name"
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+ls
+cat datos_usuario.txt
+cd ..
+ls
+cd TP_AySO
+ls
+/etc/passwd
+grep nologin /etc/passwd
+man grep
+grep -v nologin /etc/passwd
+man sort
+grep -v nologin /etc/passwd | head -n10
+grep -v nologin /etc/passwd | head -n2
+man sort
+grep sort via a key /man
+man sort
+grep -v nologin /etc/passwd | head -n10
+man sort
+grep -v nologin /etc/passwd | head -n10 | sort -t":" -k7 > lista_ordenada.txt
+ls
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+help
+git push
+ls
+cat lista_ordenada.txt
+ls
+exit
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net
+ls
+cd repogit
+ls
+cd TP_AySO
+ls
+apropos "dump traffic" > comando_dump_net
+ls
+echo apropos "dump traffic" >> comando_dump_net
+ls
+cat comando_dump_net
+cd ..
+ls
+cd TP_AySO
+ls
+git add
+git add .
+git status
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+git push
+ls
+cat README.md
+cat << Alumno: Franco Ferrandi >> README.md
+ls
+
+cd repogit
+ls
+cd TP_AySO
+ls
+cat << Alumno: Franco Ferrandi >> README.md
+ls
+cd repogit
+ls
+cd TP_AySO
+ls
+cat << FIN >> README.md
+cd repogit
+ls -l
+ls -ls
+cd TP_AySO
+ls
+echo Alumno: Franco Ferrandi >> README.md
+ls
+cat README.md
+cat << FIN >> README.md
+Alumno: Franco Ferrandi
+Division: 115
+Turno: Mañana
+FIN
+
+ls
+cat README.md 
+ls
+cat repogit/
+cd repogit
+ls
+cd TP_AySO
+ls
+cat README.md
+cat << FIN > README.md
+Alumno: Franco Ferrandi
+
+Division: 115
+
+Turno: Mañana
+
+FIN
+
+ls
+cat README.md 
+cat << FIN > README.md
+# TP_AySO
+
+Alumno: Franco Ferrandi
+
+Division: 115
+
+Turno: Mañana
+
+FIN
+
+cat README.md 
+git status
+git add .
+git status
+git commit -m "Feat: datos alumno"
+git push
+history
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
